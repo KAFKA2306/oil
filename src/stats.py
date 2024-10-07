@@ -42,7 +42,7 @@ def plot_heatmap(data, title, output_dir):
     plt.savefig(os.path.join(output_dir, 'correlation_heatmap.png'), dpi=300)
     plt.close()
 
-def select_stocks(returns, n_clusters=4, n_top_correlated=4):
+def select_stocks(returns, n_clusters=4, n_top_correlated=3):
     stock_returns = returns.drop('Crude Oil Futures', axis=1, errors='ignore')
     
     oil_correlation = stock_returns.corrwith(returns['Crude Oil Futures']).sort_values(ascending=False)
