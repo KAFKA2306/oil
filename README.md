@@ -1,3 +1,5 @@
+https://kafka2306.github.io/Electricity/
+
 # Electricity — U.S. grid evidence
 
 [![EIA data integrity](https://github.com/KAFKA2306/Electricity/actions/workflows/eia-data.yml/badge.svg)](https://github.com/KAFKA2306/Electricity/actions/workflows/eia-data.yml)
@@ -8,7 +10,6 @@
 
 ## Public dashboard
 
-- Daily dashboard: https://kafka2306.github.io/Electricity/
 - Latest complete US48 demand and day-over-day change
 - Latest complete net generation
 - Generation mix aligned to a common complete UTC day
