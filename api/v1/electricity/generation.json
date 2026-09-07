@@ -2,11 +2,6 @@
   "daily": [
     {
       "hour_count": 24,
-      "period": "2026-05-09",
-      "value": 10148322.131
-    },
-    {
-      "hour_count": 24,
       "period": "2026-05-10",
       "value": 10100777.253
     },
@@ -378,12 +373,12 @@
     {
       "hour_count": 24,
       "period": "2026-07-23",
-      "value": 13760279.758
+      "value": 13760761.519
     },
     {
       "hour_count": 24,
       "period": "2026-07-24",
-      "value": 13609210.169
+      "value": 13609341.492
     },
     {
       "hour_count": 24,
@@ -553,22 +548,22 @@
     {
       "hour_count": 24,
       "period": "2026-08-27",
-      "value": 14063992.458
+      "value": 14064197.131
     },
     {
       "hour_count": 24,
       "period": "2026-08-28",
-      "value": 13919384.24
+      "value": 13919453.621
     },
     {
       "hour_count": 24,
       "period": "2026-08-29",
-      "value": 13110889.69
+      "value": 13131602.69
     },
     {
       "hour_count": 24,
       "period": "2026-08-30",
-      "value": 13037140.85
+      "value": 13040129.85
     },
     {
       "hour_count": 24,
@@ -578,12 +573,12 @@
     {
       "hour_count": 24,
       "period": "2026-09-01",
-      "value": 14365361.93
+      "value": 14365098.93
     },
     {
       "hour_count": 24,
       "period": "2026-09-02",
-      "value": 14520884.57
+      "value": 14520883.57
     },
     {
       "hour_count": 24,
@@ -593,12 +588,17 @@
     {
       "hour_count": 24,
       "period": "2026-09-04",
-      "value": 14497890.64
+      "value": 14493075.64
+    },
+    {
+      "hour_count": 24,
+      "period": "2026-09-05",
+      "value": 13645565.02
     }
   ],
   "dataset": "generation",
   "day_boundary": "UTC",
-  "first_period": "2026-05-09",
+  "first_period": "2026-05-10",
   "frequency": "daily",
   "geography": {
     "id": "US48",
@@ -606,18 +606,18 @@
     "name": "United States Lower 48"
   },
   "kind": "actual",
-  "last_period": "2026-09-04",
+  "last_period": "2026-09-05",
   "period_count": 119,
   "schema_version": 1,
   "series_id": "EBA.US48-ALL.NG.H",
-  "source_evidence": "data/electricity/official/eia-electricity-d80aa7dc2366c6a4.json",
-  "source_evidence_sha256": "42349fef5dc439cfbaab1b9c81b9cd386099e1c77d55f0eb37725a321272773b",
+  "source_evidence": "data/electricity/official/eia-electricity-f039f262af843595.json",
+  "source_evidence_sha256": "df2cd11e4c2a3944f2c266076bced39427f3f63058efec25ec538007d21c2316",
   "source_url": "https://www.eia.gov/opendata/bulk/EBA.zip",
   "unit": "megawatthours",
   "weekly": [
     {
-      "day_count": 2,
-      "value": 20249099.384,
+      "day_count": 1,
+      "value": 10100777.253,
       "week_start": "2026-05-04"
     },
     {
@@ -672,7 +672,7 @@
     },
     {
       "day_count": 7,
-      "value": 97443540.72,
+      "value": 97444153.804,
       "week_start": "2026-07-20"
     },
     {
@@ -697,12 +697,12 @@
     },
     {
       "day_count": 7,
-      "value": 95141503.466,
+      "value": 95165479.52,
       "week_start": "2026-08-24"
     },
     {
-      "day_count": 5,
-      "value": 71892969.69,
+      "day_count": 6,
+      "value": 85533455.71,
       "week_start": "2026-08-31"
     }
   ]
